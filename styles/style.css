@@ -1,0 +1,24 @@
+body {
+  width: 500px;
+}
+
+#city-input {
+  width: 120px;
+  margin-right: 5px;
+}
+
+#state-input {
+  width: 35px;
+}
+
+#standby-msg {
+  display: none;
+}
+
+#events-container {
+  display: none;
+}
+
+.title {
+  font-weight: bold;
+}

@@ -1,0 +1,35 @@
+<html>
+<head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link href='styles/style.css' rel='stylesheet' type='text/css'>
+	<title>EventBrite Extension</title>
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/event.js"></script>  	
+</head>
+<body> 	
+    <h2>Eventbrite</h2>
+    <div class= "search">            
+        <label> Search nearby popular events: <br></label>
+        <input type="text" placeholder="City" class="city-input" name="city" />
+        <input type="text" placeholder="State (2 Characters)" class="state-input" name="state"/>
+        <br> Next Weekend: <input type="checkbox" id="myCheck"> <br>           
+        <button class="search-button">Find Events</button>        
+    </div>
+
+    <p id="search-error"></p>
+    <p id="standby-msg">Searching nearby events...</p>
+
+    <div class="events">
+        <a class="event" href="http://google.com" >                         
+                <div class="title"> </div>            
+                <div class="description"> 
+                </div>                 
+                <div class="start-time"> </div>
+                <div class="close-time"> </div>
+                <div class="url">
+                </div>                        
+        </a>
+    </div>
+</body>
+</html>
+
