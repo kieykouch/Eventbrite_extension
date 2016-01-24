@@ -1,5 +1,5 @@
 # Eventbrite_extension
-This is a Chrome Extension to search nearby events happen in your city either happening this week or next week. This project purposely making for Code Interview Challenge. Using Eventbrite Api, The application can manage to make request and display.
+This is a chrome extension application that search nearby events happening in your city either starting from this week or next week. This project purposely making for interview challenge. Using Eventbrite Api, this application can manage to make request and display the result based on user input, city and state.
 
 To use this app:
 <br> 1. git clone https://github.com/kieykouch/Eventbrite_extension
